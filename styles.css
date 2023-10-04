@@ -1,15 +1,7 @@
 body{
-    background-color: rgb(217, 217, 217);
+    background-color: rgb(0, 0, 0);
     margin: 0;
-    font-family:"Gill Sans", sans-serif;
-}
-header{
-    background-color: white;
-}
-header h1{
-    margin: 5px;;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif
+    font-family: Arial, Helvetica, sans-serif
 }
 .conjunto{
     width: 400px;
@@ -18,25 +10,41 @@ header h1{
 .box{
     background-color: white;
 }
+.cabecera{
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+    align-items: center;
+}
+.perfil{
+    font-size:small;
+    float: left;
+    flex: 1;
+    padding: 3;
+}
+
 img{
     width: 100%;
-    height: 50%;
-
+    object-fit: cover;
+    object-position: center;
 }
-.conjunto h2{
+.caja-imagen{
+    border-color: black;
+}
+.caja-iconos{
+    display: flex;
+    place-items: center;
+    justify-content:space-between;
     padding: 5px;
 }
-.conjunto p{
-    padding: 5px;
-    text-align: right;
-    color: grey;
+.likes {
+    width: 300px;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    padding:5;
 }
 .ultima p{
-    padding: 5px;
-    text-align: justify;
+    font-size: small;
     color:black;
-}
-.uno{
-    display:flex;
-    justify-content: space-between;
+    padding: 5;
 }
